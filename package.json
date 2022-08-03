@@ -6,10 +6,10 @@
   "bin": {
     "dcent": "./bin/run"
   },
-  "homepage": "https://github.com/mihirmohan38/hello-world",
+  "homepage": "https://github.com/mihirmohan38/dcent",
   "license": "MIT",
   "main": "dist/index.js",
-  "repository": "mihirmohan38/hello-world",
+  "repository": "mihirmohan38/dcent",
   "files": [
     "/bin",
     "/dist",
