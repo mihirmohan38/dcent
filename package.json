@@ -67,7 +67,7 @@
   "engines": {
     "node": ">=12.0.0"
   },
-  "bugs": "https://github.com/mihirmohan38/hello-world/issues",
+  "bugs": "https://github.com/mihirmohan38/dcent/issues",
   "keywords": [
     "oclif"
   ],

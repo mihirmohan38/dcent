@@ -41,6 +41,7 @@ USAGE
 * [`dcent plugins:uninstall PLUGIN...`](#dcent-pluginsuninstall-plugin-1)
 * [`dcent plugins:uninstall PLUGIN...`](#dcent-pluginsuninstall-plugin-2)
 * [`dcent plugins update`](#dcent-plugins-update)
+* [`dcent sign INPUT_FILE OUTPUT_FILE`](#dcent-sign-input_file-output_file)
 
 ## `dcent hello PERSON`
 
@@ -64,7 +65,7 @@ EXAMPLES
   hello friend from oclif! (./src/commands/hello/index.ts)
 ```
 
-_See code: [dist/commands/hello/index.ts](https://github.com/mihirmohan38/hello-world/blob/v0.0.0/dist/commands/hello/index.ts)_
+_See code: [dist/commands/hello/index.ts](https://github.com/mihirmohan38/dcent/blob/v0.0.0/dist/commands/hello/index.ts)_
 
 ## `dcent hello world`
 
@@ -331,4 +332,28 @@ FLAGS
 DESCRIPTION
   Update installed plugins.
 ```
+
+## `dcent sign INPUT_FILE OUTPUT_FILE`
+
+CLI tool to sign HTS transaction with D'cent wallet
+
+```
+USAGE
+  $ dcent sign [INPUT_FILE] [OUTPUT_FILE] [-n <value>] [-f] [-v] [-h]
+
+ARGUMENTS
+  INPUT_FILE   File path for input file
+  OUTPUT_FILE  File path for output file
+
+FLAGS
+  -f, --force
+  -h, --help          Show CLI help.
+  -n, --name=<value>  name to print
+  -v, --version       Show CLI version.
+
+DESCRIPTION
+  CLI tool to sign HTS transaction with D'cent wallet
+```
+
+_See code: [dist/commands/sign.ts](https://github.com/mihirmohan38/dcent/blob/v0.0.0/dist/commands/sign.ts)_
 <!-- commandsstop -->
